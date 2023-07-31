@@ -52,6 +52,8 @@ secretGenerator:
 - name: ${SECRET}
   literals:
   - AdminPassword=${PASSWORD}
+  - BarbicanPassword=${PASSWORD}
+  - BarbicanDatabasePassword=${PASSWORD}
   - CeilometerPassword=${PASSWORD}
   - DbRootPassword=${PASSWORD}
   - DatabasePassword=${PASSWORD}
